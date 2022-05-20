@@ -1,3 +1,57 @@
-h1 {
-    color: rgb(32, 38, 129);
+* {
+    font-family: 'Akshar', sans-serif;
+    margin: 0;
+
+
+}
+
+section {
+    display: flex;
+}
+
+.landing {
+    background-color: rgb(18, 15, 53);
+}
+
+.landing_text {
+    color: white;
+    width: 50%;
+    padding: 130px 10px 5px 80px;
+}
+
+.text_space {
+    margin: 10px;
+}
+
+.landing_text button {
+    background-color: brown;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+
+}
+
+.landing_text button a {
+    color: white;
+    text-decoration: none;
+}
+
+.landing_img {
+    width: 50%;
+
+}
+
+.landing_2nd_img {
+    width: 50%;
+}
+
+.landing_2nd_img img {
+    width: 40%;
+    padding-left: 130px;
+}
+
+.landing_text2 {
+
+    width: 50%;
+    padding: 100px 50px 5px 30px;
 }
